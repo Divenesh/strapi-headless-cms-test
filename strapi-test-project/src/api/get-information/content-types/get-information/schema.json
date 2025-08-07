@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "get_informations",
+  "info": {
+    "singularName": "get-information",
+    "pluralName": "get-informations",
+    "displayName": "Get Information"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Information_Photos": {
+      "type": "media",
+      "multiple": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "Add_Information_Text": {
+      "type": "richtext"
+    }
+  }
+}

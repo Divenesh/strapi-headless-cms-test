@@ -1,1 +1,0 @@
-# strapi-headless-cms-test
